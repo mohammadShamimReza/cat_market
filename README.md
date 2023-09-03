@@ -1,7 +1,7 @@
 # cow/cat_hat_with_auth(backend)
 
 ## Live Link
-[cat_hut Live Demo](https://book-catalog-server-woad.vercel.app/)
+[cat_hut Live Demo](https://cow-hat-with-auth-alpha.vercel.app/)
 
 # Description
 
