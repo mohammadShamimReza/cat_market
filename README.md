@@ -3,6 +3,8 @@
 ## Live Link
 [cat_hut Live Demo](https://book-catalog-server-woad.vercel.app/)
 
+# Description
+
 This repository contains the code for a robust authentication system for the "Cow Hut Admin" application. The system introduces an admin model with various attributes, custom authentication using bcrypt and JWT, and user profiles. Below, we provide an overview of the key tasks and features implemented in this system.
 
 # Admin Model
