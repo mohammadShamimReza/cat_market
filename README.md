@@ -1,6 +1,42 @@
-# cow_hat_with_auth
+# cow/cat_hat_with_auth
 
-Short description of your project.
+This repository contains the code for a robust authentication system for the "Cow Hut Admin" application. The system introduces an admin model with various attributes, custom authentication using bcrypt and JWT, and user profiles. Below, we provide an overview of the key tasks and features implemented in this system.
+
+# Admin Model
+
+The system introduces an admin model with the following attributes:
+
+- **role**: Specifies the role of the admin (e.g., "superadmin," "manager," "staff").
+- **password**: Stores the hashed password of the admin.
+- **name**: Admin's full name.
+- **address**: Admin's address.
+- **createdAt**: Timestamp indicating when the admin account was created.
+- **updatedAt**: Timestamp indicating the last update to the admin account.
+
+# Authentication
+
+We have implemented custom authentication using bcrypt and JSON Web Tokens (JWT) for both admins and users. Here's how the authentication process works:
+
+- Admins and users must log in using their phone number and password.
+- A successful login results in the generation of an access token.
+- A refresh token is stored in the browser's cookie for later use.
+- Access tokens contain the following information:
+  - **_id**: Unique identifier of the admin or user.
+  - **role**: Role of the admin or user, which is used for permission control.
+
+# Application Routes
+
+We have defined a set of API routes for admins and users, including the following functionalities:
+
+- **Creating admins**: Register new admin accounts.
+- **Logging in**: Authenticate admins and users and generate access tokens.
+- **Getting user profiles**: Retrieve user profiles using the access token.
+- **Updating profiles**: Allow admins and users to update their profile information.
+- **Managing cows and orders**: Implement routes to manage cows and orders based on user roles.
+
+# Authentication Middleware
+
+To ensure security and permission control, we have implemented authentication middleware. This middleware verifies tokens and checks user roles before granting access to specific routes. Admins and users can only access routes for which they have the appropriate permissions.
 
 ## Live Link
 
