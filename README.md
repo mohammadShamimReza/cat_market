@@ -1,4 +1,7 @@
-# cow/cat_hat_with_auth
+# cow/cat_hat_with_auth(backend)
+
+## Live Link
+[cat_hut Live Demo]([https://lighthearted-halva-6443ac.netlify.app/](https://book-catalog-server-woad.vercel.app/))
 
 This repository contains the code for a robust authentication system for the "Cow Hut Admin" application. The system introduces an admin model with various attributes, custom authentication using bcrypt and JWT, and user profiles. Below, we provide an overview of the key tasks and features implemented in this system.
 
