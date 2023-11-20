@@ -41,7 +41,7 @@ We have defined a set of API routes for admins and users, including the followin
 
 # Authentication Middleware
 
-To ensure security and permission control, we have implemented authentication middleware. This middleware verifies tokens and checks user roles before granting access to specific routes. Admins and users can only access routes for which they have the appropriate permissions.
+To ensure security and permission control, we have implemented authentication middleware. This middleware verifies tokens and checks user roles before granting access to specific routes. Admins and users can only access routes for which they have the appropriate permissions
 
 ## Live Link
 
